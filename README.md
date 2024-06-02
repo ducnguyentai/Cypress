@@ -26,7 +26,14 @@ $ cypress run --config-file cypress.config.js
 ```shell
 $ browserstack-cypress run
 ```
+* #### To override existing env variable
+```shell
+$ cypress run --env <variable>=<value>
+```
 * #### To generate allure report after test finished
 ```shell
 $ allure generate --clean
 ```
+* #### All supported env variables
+  * baseURL: to assign base URL
+  * baseFixturePath: to assign data file
