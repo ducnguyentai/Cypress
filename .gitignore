@@ -1,0 +1,5 @@
+/cypress/screenshots
+/log
+/results
+/.idea
+/npm_install_debug.log
