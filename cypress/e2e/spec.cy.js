@@ -1,3 +1,4 @@
+import 'cypress-mochawesome-reporter/register';
 const LoginPage = require('../pageobjects/LoginPage');
 const WelcomePage = require('../pageobjects/WelcomePage');
 

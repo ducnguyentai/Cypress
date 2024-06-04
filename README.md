@@ -8,6 +8,12 @@
 
 
 ****
+****
+## Necessary installation
+* Cypress: npm i -g cypress --save-dev
+* Browserstack-Cypress: npm i -g browserstack-cypress-cli
+* Cypress reporter: npm i -g --save-dev cypress-mochawesome-reporter
+****
 ## How to use
 
 * #### By default, the tests will run over cypress.config.js file, which will assign `baseURL` and other configs to browser
