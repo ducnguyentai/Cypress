@@ -13,7 +13,6 @@ class LoginPage {
   login(username, password) {
     this.elements.usernameInput().type(username);
     this.elements.passwordInput().type(password);
-    cy.wait(5000);
     this.elements.loginButton().click();
   }
 

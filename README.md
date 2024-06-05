@@ -8,6 +8,12 @@
 
 
 ****
+****
+## Necessary installation
+* Cypress: npm i -g cypress --save-dev
+* Browserstack-Cypress: npm i -g browserstack-cypress-cli
+* Cypress reporter: npm i -g --save-dev cypress-mochawesome-reporter
+****
 ## How to use
 
 * #### By default, the tests will run over cypress.config.js file, which will assign `baseURL` and other configs to browser
@@ -30,10 +36,8 @@ $ browserstack-cypress run
 ```shell
 $ cypress run --env <variable>=<value>
 ```
-* #### To generate allure report after test finished
-```shell
-$ allure generate --clean
-```
+* #### To generate report after test finished
+  * Report will be automatically generated after running test through CLI
 * #### All supported env variables
   * baseURL: to assign base URL
   * baseFixturePath: to assign data file
