@@ -36,10 +36,8 @@ $ browserstack-cypress run
 ```shell
 $ cypress run --env <variable>=<value>
 ```
-* #### To generate allure report after test finished
-```shell
-$ allure generate --clean
-```
+* #### To generate report after test finished
+  * Report will be automatically generated after running test through CLI
 * #### All supported env variables
   * baseURL: to assign base URL
   * baseFixturePath: to assign data file
