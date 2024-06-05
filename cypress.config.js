@@ -1,12 +1,13 @@
 module.exports = {
   projectId: "wtk6b5",
-  video: false,
-  reporter: 'mochawesome',
+  reporter: 'cypress-mochawesome-reporter',
+  video: false,
   reporterOptions: {
-    reportDir: 'cypress/reports',
-    overwrite: true,
-    html: true,
-    json: false,
+    reportDir: "cypress/reports",
+    charts: true,
+    reportPageTitle: 'Cypress Inline Reporter',
+    embeddedScreenshots: true, 
+    inlineAssets: true, 
   },
   e2e: {
       defaultCommandTimeout: 6000,
@@ -16,7 +17,7 @@ module.exports = {
       trashAssetsBeforeRuns: true,
       setupNodeEvents(on, config) {
         require('cypress-mochawesome-reporter/plugin')(on);
-      }
+      }
   },
   env: {
     baseURL: "https://practicetestautomation.com/",

@@ -1,11 +1,25 @@
 {
   "name": "1.cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "**** ## Tech stacks * Cypress package version: 13.10.0 * Cypress binary version: 13.10.0 * Electron version: 27.3.10 * Bundled Node version: 18.17.1",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducnguyentai/Cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ducnguyentai/Cypress/issues"
+  },
+  "homepage": "https://github.com/ducnguyentai/Cypress#readme"
 }
