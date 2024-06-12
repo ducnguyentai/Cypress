@@ -24,6 +24,10 @@ $ cypress run
 ```shell
 $ cypress run --headed/--headless
 ```
+* #### To config run in Designed browser
+```shell
+$ cypress run --browser [chrome, chrome:beta, edge, firefox]
+```
 * #### To run on different environment
 ```shell
 $ cypress run --config-file cypress.config.js
