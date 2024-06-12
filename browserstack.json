@@ -8,6 +8,8 @@
             "browser": "chrome",
             "os": "Windows 11",
             "versions": [
+                "latest",
+                "latest-1",
                 "123"
             ]
         }
